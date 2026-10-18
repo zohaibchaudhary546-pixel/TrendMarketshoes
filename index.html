@@ -1,134 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Trend Market Shoes</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trend Market Shoes</title>
 
-<style>
-body{
-margin:0;
-font-family:Arial,sans-serif;
-background:#111;
-color:white;
-text-align:center;
-}
-
-header{
-background:black;
-padding:20px;
-}
-
-h1{
-color:#FFD700;
-}
-
-.hero{
-padding:60px 20px;
-background:url('https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=1200') center/cover;
-}
-
-.hero h2{
-font-size:40px;
-}
-
-.btn{
-display:inline-block;
-padding:12px 25px;
-background:#FFD700;
-color:black;
-text-decoration:none;
-border-radius:8px;
-font-weight:bold;
-margin-top:15px;
-}
-
-.products{
-display:flex;
-flex-wrap:wrap;
-justify-content:center;
-gap:20px;
-padding:40px;
-}
-
-.card{
-background:#222;
-padding:15px;
-border-radius:10px;
-width:250px;
-}
-
-.card img{
-width:100%;
-border-radius:10px;
-}
-
-footer{
-background:black;
-padding:30px;
-}
-
-.social a{
-color:#FFD700;
-text-decoration:none;
-margin:10px;
-font-size:20px;
-}
-</style>
-
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 <header>
-<h1>Trend Market Shoes</h1>
+  <div class="logo">👟 Trend Market Shoes</div>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#products">Products</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
 </header>
 
 <section class="hero">
-<h2>Best Shoes, Better Style</h2>
-<p>Premium Shoes Collection</p>
-<a class="btn" href="https://wa.me/923262936422">Order Now</a>
+  <h1>Premium Shoes Collection</h1>
+  <p>Best Quality • Best Price • Fast Delivery</p>
+
+  <a href="https://wa.me/923262936422" class="btn">
+    Order on WhatsApp
+  </a>
 </section>
 
-<section class="products">
+<section id="products">
 
+<h2>Latest Shoes</h2>
+
+<div class="products">
+
+<!-- Shoe 1 -->
 <div class="card">
-<img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600">
-<h3>Air Sneaker</h3>
-<p>Rs. 5,999</p>
-<a class="btn" href="https://wa.me/923262936422">Buy</a>
+<img src="images/shoe1.jpg">
+<h3>Nike Air Max</h3>
+<p>Rs. 7,999</p>
+
+<a href="https://wa.me/923262936422">
+Buy Now
+</a>
+
 </div>
 
+<!-- Shoe 2 -->
 <div class="card">
-<img src="https://images.unsplash.com/photo-1549298916-b41d501d3772?w=600">
-<h3>Sport Shoes</h3>
-<p>Rs. 6,499</p>
-<a class="btn" href="https://wa.me/923262936422">Buy</a>
+
+<img src="images/shoe2.jpg">
+
+<h3>Adidas Runner</h3>
+
+<p>Rs. 6,999</p>
+
+<a href="https://wa.me/923262936422">
+Buy Now
+</a>
+
 </div>
 
-<div class="card">
-<img src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?w=600">
-<h3>Luxury Shoes</h3>
-<p>Rs. 7,299</p>
-<a class="btn" href="https://wa.me/923262936422">Buy</a>
+<!-- مزید Shoes یہاں بعد میں Add ہوں گے -->
+
 </div>
+
+</section>
+
+<section id="about">
+
+<h2>About Us</h2>
+
+<p>
+
+Trend Market Shoes provides premium quality shoes with modern style and affordable prices.
+
+</p>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact Us</h2>
+
+<p>
+
+WhatsApp:
+03262936422
+
+</p>
+
+<p>
+
+Facebook
+
+</p>
+
+<p>
+
+Instagram
+
+</p>
 
 </section>
 
 <footer>
 
-<h2>Contact Us</h2>
-
-<div class="social">
-
-<a href="https://www.facebook.com/share/1QSayxQHRS/">Facebook</a><br><br>
-
-<a href="https://www.instagram.com/zabiii_ch2006?dlrf=MWljczBoanZiNDZ2OQ==">Instagram</a><br><br>
-
-<a href="https://wa.me/923262936422">WhatsApp</a>
-
-</div>
+© 2026 Trend Market Shoes
 
 </footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
