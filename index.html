@@ -4,105 +4,104 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Trend Market Shoes</title>
-
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<header>
-  <div class="logo">👟 Trend Market Shoes</div>
+<header class="navbar">
+  <a class="brand" href="#home">
+    <span class="shoe-icon">👟</span>
+    <span>Trend Market Shoes<small>Step into Better Style</small></span>
+  </a>
 
   <nav>
-    <a href="#">Home</a>
+    <a href="#home">Home</a>
     <a href="#products">Products</a>
     <a href="#about">About</a>
     <a href="#contact">Contact</a>
   </nav>
+
+  <div class="socials">
+    <a class="instagram" href="#contact" aria-label="Instagram">◎</a>
+    <a class="facebook" href="#contact" aria-label="Facebook">f</a>
+    <a class="whatsapp" href="https://wa.me/923262936422" aria-label="WhatsApp">☏</a>
+  </div>
 </header>
 
-<section class="hero">
-  <h1>Premium Shoes Collection</h1>
-  <p>Best Quality • Best Price • Fast Delivery</p>
-
-  <a href="https://wa.me/923262936422" class="btn">
-    Order on WhatsApp
-  </a>
+<section class="hero" id="home">
+  <div class="hero-content">
+    <p class="eyebrow">TREND MARKET SHOES</p>
+    <h1>Premium Shoes<br>Collection</h1>
+    <p class="tagline">Best Quality · Best Price · Fast Delivery</p>
+    <a class="order-btn"
+       href="https://wa.me/923262936422?text=Assalamualaikum%2C%20mujhe%20shoes%20order%20karne%20hain">
+       ☏ &nbsp; Order on WhatsApp →
+    </a>
+  </div>
+  <div class="hero-image">
+    <img src="images/Shoe1.jpg.jpeg" alt="Featured shoe">
+  </div>
 </section>
 
-<section id="products">
-
-<h2>Latest Shoes</h2>
-
-<div class="products">
-
-  <!-- Shoe 1 -->
-  <div class="card">
-    <img src="images/Shoe1.jpg.jpeg" alt="Nike Air Max">
-    <h3>Nike Air Max</h3>
-    <p>Rs. 7,999</p>
-    <a href="https://wa.me/923262936422">Buy Now</a>
-  </div>
-
-  <!-- Shoe 2 -->
-  <div class="card">
-    <img src="images/shoe2.jpg.jpeg" alt="Adidas Runner">
-    <h3>Adidas Runner</h3>
-    <p>Rs. 6,999</p>
-    <a href="https://wa.me/923262936422">Buy Now</a>
-  </div>
-
-  <!-- Shoe 3 -->
-  <div class="card">
-    <img src="images/shoe3.jpg.jpeg" alt="Stylish Shoes">
-    <h3>Stylish Shoes</h3>
-    <p>Price ke liye WhatsApp karein</p>
-    <a href="https://wa.me/923262936422">Buy Now</a>
-  </div>
-
-</div>
-<h2>About Us</h2>
-
-<p>
-
-Trend Market Shoes provides premium quality shoes with modern style and affordable prices.
-
-</p>
-
+<section class="benefits">
+  <div>🚚 <span><b>Fast Delivery</b><small>Delivery details on WhatsApp</small></span></div>
+  <div>🛡️ <span><b>Quality Shoes</b><small>Check details before ordering</small></span></div>
+  <div>💳 <span><b>Easy Ordering</b><small>Order through WhatsApp</small></span></div>
+  <div>🎧 <span><b>Customer Support</b><small>Contact us for help</small></span></div>
 </section>
 
-<section id="contact">
+<section class="products-section" id="products">
+  <div class="section-heading">
+    <h2>Latest Shoes</h2>
+    <span>Our Collection</span>
+  </div>
 
-<h2>Contact Us</h2>
+  <div class="products">
+    <article class="card">
+      <img src="images/Shoe1.jpg.jpeg" alt="Nike Air Max">
+      <div class="card-info">
+        <h3>Nike Air Max</h3>
+        <p>Rs. 7,999</p>
+        <a href="https://wa.me/923262936422?text=Nike%20Air%20Max%20ke%20liye%20order%20karna%20hai">Buy Now →</a>
+      </div>
+    </article>
 
-<p>
+    <article class="card">
+      <img src="images/shoe2.jpg.jpeg" alt="Adidas Runner">
+      <div class="card-info">
+        <h3>Adidas Runner</h3>
+        <p>Rs. 6,999</p>
+        <a href="https://wa.me/923262936422?text=Adidas%20Runner%20ke%20liye%20order%20karna%20hai">Buy Now →</a>
+      </div>
+    </article>
 
-WhatsApp:
-03262936422
-
-</p>
-
-<p>
-
-Facebook
-
-</p>
-
-<p>
-
-Instagram
-
-</p>
-
+    <article class="card">
+      <img src="images/shoe3.jpg.jpeg" alt="Stylish Shoes">
+      <div class="card-info">
+        <h3>Stylish Shoes</h3>
+        <p>Price ke liye contact karein</p>
+        <a href="https://wa.me/923262936422?text=Stylish%20Shoes%20ki%20price%20batayein">Buy Now →</a>
+      </div>
+    </article>
+  </div>
 </section>
 
-<footer>
+<section class="about" id="about">
+  <h2>About Trend Market Shoes</h2>
+  <p>Discover stylish footwear at affordable prices. Contact us to confirm
+  product availability, sizes, prices and delivery details.</p>
+</section>
 
-© 2026 Trend Market Shoes
-
+<footer id="contact">
+  <h2>Contact Us</h2>
+  <p>WhatsApp: 03262936422</p>
+  <div class="footer-socials">
+    <a href="https://wa.me/923262936422">WhatsApp</a>
+    <a href="#contact">Instagram</a>
+    <a href="#contact">Facebook</a>
+  </div>
+  <p class="copyright">© 2026 Trend Market Shoes</p>
 </footer>
-
-<script src="script.js"></script>
 
 </body>
 </html>
